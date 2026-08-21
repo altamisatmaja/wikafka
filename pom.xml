@@ -13,6 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
+	<modules>
+		<module>kafka-producer-wikafka</module>
+	</modules>
 	<packaging>pom</packaging>
 	<url/>
 	<licenses>
