@@ -6,6 +6,7 @@
         <artifactId>wikafka</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <packaging>jar</packaging>
     <artifactId>kafka-producer-wikafka</artifactId>
     <name>Archetype - kafka-producer-wikafka</name>
     <url>http://maven.apache.org</url>
