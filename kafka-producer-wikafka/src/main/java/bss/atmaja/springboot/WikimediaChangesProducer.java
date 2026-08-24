@@ -9,7 +9,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 import java.net.URI;
-//import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class WikimediaChangesProducer {
@@ -34,6 +34,7 @@ public class WikimediaChangesProducer {
 
             eventSource.start();
 
+            TimeUnit.MINUTES.sleep(10);
         }
     }
 }
