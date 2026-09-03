@@ -15,6 +15,7 @@
 	<description/>
 	<modules>
 		<module>kafka-producer-wikafka</module>
+		<module>kafka-consumer-database-wikafka</module>
 	</modules>
 	<packaging>pom</packaging>
 	<url/>
